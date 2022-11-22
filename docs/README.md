@@ -55,5 +55,14 @@ Finalmente, después de seguir los pasos anteriores, podremos ver los cambios qu
 Para esto, debe ingresar, en su terminal, el comando: `vtex link`, donde si todo corre bien, verá el mensaje: `App linked successfully` y su componente custom estará en orden para usar. 
 Si por el contrario, en su consola sale un error, lo que deberá hacer, será recitifcar los pasos anteriormente mencionados.
 
+### Paso 6 - Usar componente custom en la página
+
+Para agregar este componente custom, deberá ingresar en su proyecto, ir al archivo `manifest.json` y en `dependencies`, importar el: vendor, name y versión de este repositorio. Por ejemplo:
+
+```
+  "dependencies": {
+    "itgloberspartnercl.whatsapp-button": "0.x"
+  }
+```
 ## Contributors
 1. Laura Castellanos
