@@ -16,6 +16,7 @@ Para empezar, [clonar](https://github.com/LauraCastellanos13/itgloberspartnercl.
 
 Una vez abierto el repositorio de manera local, ingresar al archivo `manifest.json` y allí es donde realizará modificaciones en los siguientes elementos: `vendor`, `name`, `version`, `title` y `description`. Como en el siguiente ejemplo:
 
+```
 {
   "vendor": "itgloberspartnercl",
   "name": "bullets-diagramation",
@@ -23,11 +24,13 @@ Una vez abierto el repositorio de manera local, ingresar al archivo `manifest.js
   "title": "Bullet diagramation",
   "description": "Context of elements that render the lower levels of navigation of a list of bullets with images"
 }
+```
 
 ### Paso 3 - Revisar las dependencias y builders necesarios
 
 Una vez modificada esa sección del `manifest.json`, se debe rectificar que el repositorio contenga las siguientes dependencias y los builders necesarios:
 
+```
   "builders": {
     "react": "3.x",
     "messages": "1.x",
@@ -40,6 +43,7 @@ Una vez modificada esa sección del `manifest.json`, se debe rectificar que el r
     "vtex.device-detector": "0.x",
     "vtex.css-handles": "0.x"
   }
+```
 
 ### Paso 4 - Instalar node-modules
 
