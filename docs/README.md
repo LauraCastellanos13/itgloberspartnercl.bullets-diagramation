@@ -61,7 +61,7 @@ Para agregar este componente custom, deberá ingresar en su proyecto, ir al arch
 
 ```
   "dependencies": {
-    "itgloberspartnercl.whatsapp-button": "0.x"
+     "itgloberspartnercl.bullets-diagramation": "0.x"
   }
 ```
 ## Contributors
